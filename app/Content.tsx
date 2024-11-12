@@ -3,11 +3,10 @@
 import SearchBar from "@/components/searchAndFilter/SearchBar";
 import Filter from "@/components/searchAndFilter/Filter";
 import HomePageCards from "@/components/homePage/HomePageCards";
-
-import data from "../public/data.json";
 import Card from "@/components/Card";
 import { useMemo } from "react";
 import { useSearchParams } from "next/navigation";
+import data from "../app/data/data.json";
 
 export default function Content() {
   const searchParam = useSearchParams();

@@ -4,7 +4,7 @@ import SearchBar from "@/components/searchAndFilter/SearchBar";
 import Filter from "@/components/searchAndFilter/Filter";
 import Card from "@/components/Card";
 
-import data from "@/public/data.json";
+import data from "../../data/data.json";
 import { useMemo } from "react";
 import { useParams, useSearchParams } from "next/navigation";
 

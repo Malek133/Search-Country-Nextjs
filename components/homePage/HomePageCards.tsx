@@ -1,5 +1,6 @@
+import  data  from "../../app/data/data.json";
 import Card from "../Card";
-import data from "@/public/data.json";
+
 
 export default function HomePageCards() {
   let countriesNames = [
